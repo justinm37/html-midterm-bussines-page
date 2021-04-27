@@ -1,0 +1,144 @@
+body{
+    padding:0px;
+    margin: 0px;
+  background-image: url(/images/barbero.gif);
+  background-size:50px ;
+  background-position-y:30px ;
+  background-position-x: 150px;
+ 
+ 
+ 
+  
+
+}
+.container{ 
+    
+    width: 100%;
+    margin: 0px;
+    border: 3px;
+    border-radius: 15px;
+    background-color: rgba(243, 240, 240, 0.959);
+    overflow: hidden;
+    
+
+}
+.navbar h1{
+    float: left;
+    color: rgb(245, 59, 59);
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px blue solid;
+
+    
+}
+.navbar ul{
+    float: right;
+    padding:0px;
+    text-transform: uppercase;
+   
+    
+}
+.navbar li{
+    list-style: none;
+    float: left;
+    padding: 0 ;
+   
+}
+.navbar a{
+    color: rgb(0, 153, 255);
+    margin: 50px;
+    text-decoration:none;
+    border-bottom: rgb(165, 23, 23) 2px solid;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#haircut{
+    background-color: rgba(236, 222, 197, 0.5);
+    margin-right: 80px;  
+    box-sizing: border-box;
+    float: left;
+}
+.gupit img{
+    border: 5px rgb(196, 162, 50) solid;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    padding: 5px;
+    float: left;
+}
+#haircut a{
+    font-size: 15px;
+    margin-top:100px;
+    margin-right:30px ;
+    text-align: center;
+    color: rgb(49, 49, 206);
+    border-bottom: 2px rgb(231, 93, 93) solid;
+    float: right;
+    text-decoration: none;
+    
+}
+#haircut img{
+    margin-right: 50px;
+}
+#haircut h3{
+    font-size: 25px;
+    font-family: sans-serif;
+    background-color: rgba(139, 133, 133, 0.5);
+    padding: 0px;
+    margin: 50px;
+    float: left;
+   text-align: center;
+}
+#haircut h4{
+    font-size: 25px;
+    font-family: sans-serif;
+    background-color: rgba(255, 0, 0, 0.5);
+    padding: 0px;
+    margin: 50px;
+    float: left;
+   text-align: center;
+}
+:hover #haircut a {
+    color:rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+
+@media(max-width:768px){
+  .container{
+     
+        width: 100%;
+        float:none;
+        text-align: center;
+    }
+     .container{
+         margin-right:100px ;
+     }
+     .navbar h1{
+        float:none;
+        text-align: center;
+     }
+     h2{
+        float:none;
+        text-align: center;
+     }
+    #haircut h3{
+        float:none;
+        text-align: center;
+    }
+    #haircut h4{
+        float:none;
+        text-align: center;
+    }
+    .gupit img{
+        float:none;
+        text-align: center;
+         margin-left:40px;
+    }
+    #haircut a{
+        float:none;
+        text-align: center;
+    }
+}
